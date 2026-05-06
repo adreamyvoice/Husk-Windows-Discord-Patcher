@@ -284,7 +284,7 @@ $ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u =
 
 **Offsets & Research** — Cypher, Oracle  
 **Script & GUI** — Claude (Anthropic)  
-**Enhancements** — Husk
+**Enhancements** — a dreamy voice
 
 ---
 
