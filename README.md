@@ -7,7 +7,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?style=flat-square)
 ---
 
-# ⚠️ ATTENTION!!! I WILL BE MERGING EVERY DISCORD AUDIO RELATED REPO TO [Discord Audio Collective](https://github.com/killartistry/Discord-Stereo-Windows-MacOS-Linux)
+# ⚠️ ATTENTION!!! I WILL BE MERGING EVERY DISCORD AUDIO RELATED REPO TO [Discord Audio Collective](https://github.com/adreamyvoice/Discord-Stereo-Windows-MacOS-Linux)
 
 ---
 > ⚠️ **Debug mode:** Use the **Debug** button in the GUI to show an optional panel where you can enable/disable individual patches (by name) and copy the offset block for use with the offset finder.
@@ -16,7 +16,7 @@
 
 ### Option 1: One-Click BAT (Recommended)
 
-[**📥 Download DiscordVoicePatcher.bat**](https://github.com/killartistry/Discord-Node-Patcher/releases/latest)
+[**📥 Download DiscordVoicePatcher.bat**](https://github.com/adreamyvoice/Discord-Node-Patcher/releases/latest)
 
 Just download and double-click. Always runs the latest version.
 
@@ -30,12 +30,12 @@ Just download and double-click. Always runs the latest version.
 
 #### PowerShell (recommended)
 ```powershell
-$ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u = "https://raw.githubusercontent.com/killartistry/Discord-Node-Patcher/main/Discord_voice_node_patcher.ps1?nocache=$([DateTime]::UtcNow.Ticks)"; Invoke-WebRequest -Uri $u -OutFile $p; powershell -NoProfile -ExecutionPolicy Bypass -File $p
+$ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u = "https://raw.githubusercontent.com/adreamyvoice/Discord-Node-Patcher/main/Discord_voice_node_patcher.ps1?nocache=$([DateTime]::UtcNow.Ticks)"; Invoke-WebRequest -Uri $u -OutFile $p; powershell -NoProfile -ExecutionPolicy Bypass -File $p
 ```
 
 #### Command Prompt (cmd.exe)
 ```bat
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u = 'https://raw.githubusercontent.com/killartistry/Discord-Node-Patcher/main/Discord_voice_node_patcher.ps1?nocache=' + [DateTime]::UtcNow.Ticks; Invoke-WebRequest -Uri $u -OutFile $p; & $p"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u = 'https://raw.githubusercontent.com/adreamyvoice/Discord-Node-Patcher/main/Discord_voice_node_patcher.ps1?nocache=' + [DateTime]::UtcNow.Ticks; Invoke-WebRequest -Uri $u -OutFile $p; & $p"
 ```
 
 Paste into the matching shell and press Enter.
@@ -147,7 +147,7 @@ notepad "$env:TEMP\DiscordVoicePatcher\patcher.log"
 ### Restore Original
 ```powershell
 # (PowerShell) Run the patcher again, then select "Restore" in the GUI
-$ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u = "https://raw.githubusercontent.com/killartistry/Discord-Node-Patcher/main/Discord_voice_node_patcher.ps1?nocache=$([DateTime]::UtcNow.Ticks)"; Invoke-WebRequest -Uri $u -OutFile $p; powershell -NoProfile -ExecutionPolicy Bypass -File $p
+$ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u = "https://raw.githubusercontent.com/adreamyvoice/Discord-Node-Patcher/main/Discord_voice_node_patcher.ps1?nocache=$([DateTime]::UtcNow.Ticks)"; Invoke-WebRequest -Uri $u -OutFile $p; powershell -NoProfile -ExecutionPolicy Bypass -File $p
 # Then select "Restore" in the GUI
 ```
 
@@ -182,7 +182,7 @@ $ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u =
 - **NEW:** File size gate (12–18 MB) rejects obviously wrong binaries before any patches are attempted
 - **NEW:** Dynamic HighPassFilter stub — computed at compile time from offset constants
 - **SECURITY:** Auto-updater compares version and refuses downgrades
-- **CHANGED:** Repository moved to [Discord-Node-Patcher](https://github.com/killartistry/Discord-Node-Patcher)
+- **CHANGED:** Repository moved to [Discord-Node-Patcher](https://github.com/adreamyvoice/Discord-Node-Patcher)
 
 ### v3.1 — Bugfix Release
 - **FIXED:** Mod clients (BetterDiscord, Vencord, Equicord, BetterVencord) showing "This client is not installed" when they share the same install path as Discord Stable
@@ -202,7 +202,7 @@ $ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u =
 ### v2.6.2 – v2.5
 - MSVC fix, auto-update, BAT launcher, multi-client detection, Patch All, CLI batch mode, disk-based detection, auto-elevation
 
-[View full changelog →](https://github.com/killartistry/Discord-Node-Patcher/releases)
+[View full changelog →](https://github.com/adreamyvoice/Discord-Node-Patcher/releases)
 
 </details>
 
@@ -292,6 +292,6 @@ $ProgressPreference='SilentlyContinue'; $p = Join-Path $env:TEMP 'dvp.ps1'; $u =
 
 <div align="center">
 
-**[Report Issue](https://github.com/killartistry/Discord-Node-Patcher/issues)** · **[Releases](https://github.com/killartistry/Discord-Node-Patcher/releases)** · **[Source Code](https://github.com/killartistry/Discord-Node-Patcher)**
+**[Report Issue](https://github.com/adreamyvoice/Discord-Node-Patcher/issues)** · **[Releases](https://github.com/adreamyvoice/Discord-Node-Patcher/releases)** · **[Source Code](https://github.com/adreamyvoice/Discord-Node-Patcher)**
 
 </div>
