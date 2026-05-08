@@ -30,6 +30,6 @@ Run the patcher again and click **Restore** in the GUI.
 
 ## Credits
 
-Made by **a dreamy voice**, built with **Claude (Anthropic)**.
+Made by **Voice**.
 
 > ⚠️ Modifies Discord files. Use at your own risk. Re-run after Discord updates. Not affiliated with Discord Inc.
